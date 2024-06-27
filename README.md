@@ -30,6 +30,6 @@ News.com é um site de notícias que permite aos usuários visualizar artigos em
 Ana Beatriz Camassuti
 
 - Email: ana.franciscatto4419@gmail.com
-- GitHub: [github.com/seuusuario](https://github.com/anafranciscatto)
+- GitHub: [https://github.com/anafranciscatto](https://github.com/anafranciscatto)
 
 ## Licença
