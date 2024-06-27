@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio News Section</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <header>
+        <h1>News.com</h1>
+    </header>
+    <div class="img-container">
+        <img src="./src/img/fundo-newscom-elemento.png" alt="Background of newspaper">
+    </div>
+    <main>
+        <div class="txt-container">
+            <p>Suas <span class="txt-destaque">noticias</span> na</p>
+            <p>palma da <span class="txt-destaque">sua mão</span></p>
+        </div>
+        <div class="news-section">
+            <div class="category-select">
+                <label for="category">Categoria:</label>
+                <select id="category">
+                    <option value="technology">Tecnologia</option>
+                    <option value="business">Negócios</option>
+                    <option value="health">Saúde</option>
+                    <option value="science">Ciência</option>
+                    <option value="sports">Esportes</option>
+                </select>
+                <button onclick="fetchNews()">Pesquisar notícias</button>
+            </div>
+            <div id="news-container" class="news-container"></div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Ana Beatriz Camassuti. Todos os direitos reservados.</p>
+            <p>Email: ana.franciscatto4419@gmail.com</p>
+            <p>Telefone: (16) 99350-6485</p>
+            <p>Github: <a href="https://github.com/anafranciscatto" target="_blank">github.com/anafranciscatto</a></p>
+            <p>API utilizada: <a href="https://newsapi.org/" target="_blank">News API</a></p>
+        </div>
+    </footer>
+    <script src="./src/javascript.js"></script>
+</body>
+</html>
